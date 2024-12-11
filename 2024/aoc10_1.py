@@ -69,7 +69,6 @@ def main():
     map.add_trailheads()
     map.descend_from_all_peaks()
 
-
     end_time = time.time()
     print(sum([len(map.trailheads[key]) for key in map.trailheads]))
     print(f"Time taken: {end_time - start_time} seconds")
